@@ -79,6 +79,7 @@ public class DrawFrame extends JFrame {
         rect = new JButton("rect");
         oval = new JButton("oval");
         line = new JButton("line");
+        renk = new JColorChooser();
 
         //create comboboxes
         colors = new JComboBox(colorOptions);
@@ -100,11 +101,12 @@ public class DrawFrame extends JFrame {
         widgetJPanel.add(redo);
         widgetJPanel.add(clear);
         widgetJPanel.add(colors);
-       // widgetJPanel.add(shapes);
+        // widgetJPanel.add(shapes);
         widgetJPanel.add(filled);
         widgetJPanel.add(rect);
         widgetJPanel.add(oval);
         widgetJPanel.add(line);
+        //widgetJPanel.add(renk);
 
         // add widgetJPanel to widgetPadder
         widgetPadder.add(widgetJPanel);
@@ -120,6 +122,7 @@ public class DrawFrame extends JFrame {
         clear.addActionListener(buttonHandler);
         rect.addActionListener(buttonHandler);
         oval.addActionListener(buttonHandler);
+        line.addActionListener(buttonHandler);
 
         //create handlers for combobox and checkbox
         ItemListenerHandler handler = new ItemListenerHandler();
