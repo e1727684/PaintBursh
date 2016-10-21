@@ -3,7 +3,7 @@ package com.omerenlicay;
  * Grafik Programlama Odevi
  * Name: Omer Enlicay
  * Date: Ekim 2016
- * 
+ * Commiter: Erhan Arslan
  * Acıklama:
  * Bu program iki adet panelden oluşmaktadır.
  * Üst kısımdaki panelde widgetler (Button, checkBox) bulunmaktadır.
