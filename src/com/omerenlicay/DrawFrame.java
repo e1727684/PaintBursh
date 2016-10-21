@@ -17,6 +17,7 @@ import java.awt.Color;
 
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
+import javax.swing.JColorChooser;
 
 /**
  * Github:https://github.com/enlicayomer/PaintBursh
@@ -32,6 +33,7 @@ public class DrawFrame extends JFrame {
     private JButton rect;
     private JButton oval;
     private JButton line;
+    private JColorChooser renk;
     private JComboBox colors; //combobox with color options
 
     //array of strings containing color options for JComboBox colors
